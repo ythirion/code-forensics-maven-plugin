@@ -15,6 +15,14 @@
         <maven.compiler.target>10</maven.compiler.target>
     </properties>
 
+    <name>Code Forensics Maven Plugin</name>
+    <description>Maven plugin to easily add code-forensics tools from Silvio Montanari to your java projects.
+        code-forensics is a toolset for analysing codebase stored in a version control system.
+        It leverages the repository logs, or version history data, to perform deep analyses with regards to complexity,
+        logical coupling, authors coupling and to inspect the evolution in time of different parts of a software system
+        with respect to metrics like code churn and number of revisions.
+    </description>
+
     <build>
         <plugins>
             <plugin>
@@ -43,9 +51,6 @@
             </plugin>
         </plugins>
     </build>
-
-    <name>Code Forensics Maven Plugin</name>
-    <description>Plugin to run code forensics analysis</description>
 
     <dependencies>
         <dependency>
